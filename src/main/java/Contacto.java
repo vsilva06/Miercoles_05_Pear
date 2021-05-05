@@ -11,6 +11,20 @@ public class Contacto {
         this.direccion = direccion;
     }
 
+    public Contacto() {
+
+    }
+
+    @Override
+    public String toString() {
+        return "Contacto{" +
+                "nombre='" + nombre + '\'' +
+                ", apellido='" + apellido + '\'' +
+                ", numero='" + numero + '\'' +
+                ", direccion='" + direccion + '\'' +
+                '}';
+    }
+
     public String getNombre() {
         return nombre;
     }
